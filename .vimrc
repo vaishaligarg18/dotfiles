@@ -13,8 +13,8 @@ call pathogen#helptags()
 
 let NERDTreeIgnore = ['\.pyc$']             "NERDTree ignore filetypes
 let g:gitgutter_enabled = 0                 "Disable GitGutter by default
-let g:email = "dhilipsiva@gmail.com"
-let g:username = "dhilipsiva"
+let g:email = "vaishali.garg18@gmail.com"
+let g:username = "vaishaligarg18"
 
 set tabstop=4
 set shiftwidth=4

@@ -9,7 +9,7 @@
     autosetuprebase = always
 
 [github]
-    user = dhilipsiva
+    user = vaishaligarg18
 
 [diff]
     tool = vimdiff
@@ -82,7 +82,7 @@
 
 [core]
     # Use custom `.gitignore` and `.gitattributes`
-	excludesfile = /Users/dhilipsiva/.gitignore_global
+	excludesfile = /Users/vaishaligarg18/.gitignore_global
     attributesfile = ~/.gitattributes
     # Treat spaces before tabs and all kinds of trailing whitespace as an error.
     # [default] trailing-space: looks for spaces at the end of a line
@@ -150,11 +150,3 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
-[http "https://git.vry6.flynnhub.com"]
-	sslCAInfo = /Users/dhilipsiva/.flynn/ca-certs/flynn-1453790863.pem
-[credential "https://git.vry6.flynnhub.com"]
-	helper = /usr/local/bin/flynn git-credentials
-[http "https://git.5dxq.flynnhub.com"]
-	sslCAInfo = /Users/dhilipsiva/.flynn/ca-certs/flynn-1455783668.pem
-[credential "https://git.5dxq.flynnhub.com"]
-	helper = /usr/local/bin/flynn git-credentials
